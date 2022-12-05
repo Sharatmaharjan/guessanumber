@@ -47,6 +47,6 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.number').style.width = '30rem';
     if (score > highScore) highScore = score;
     document.querySelector('.message').textContent = '🎉 Correct Answer';
-    document.querySelector('.highscore').textContent = highscore;
+    document.querySelector('.highscore').textContent = highScore;
   }
 });
